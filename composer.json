@@ -1,0 +1,21 @@
+{
+  "name": "malutka/test_work",
+  "description": "My test work",
+  "authors": [
+    {
+      "name": "Aleksandr Ryabenko",
+      "email": "dudstep842@gmail.com"
+    }
+  ],
+
+  "require": {
+    "altorouter/altorouter": "^1.2"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "classmap": ["app"]
+  }
+}
